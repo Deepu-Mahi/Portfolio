@@ -1,12 +1,53 @@
-# React + Vite
+# 🚀 Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio — a dynamic, responsive, and modern website showcasing my work, skills, and social presence. Built using **Vite**, **React**, **TailwindCSS**, and **Framer Motion**, this portfolio reflects both my technical skills and creative flair.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧑‍💻 Developer introduction with smooth entrance animations
+- ✨ Interactive and responsive UI with modern design
+- 💼 Projects section with hover effects and live links
+- 🔗 Social media integration (GitHub, LinkedIn, Instagram, etc.)
+- 📱 Fully responsive layout (Mobile, Tablet, Desktop)
+- ⚡ Fast loading using Vite bundler
+- 🎨 Styled with Tailwind CSS and animated using Framer Motion
+- 🌓 Dark Mode support (optional)
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React Icons](https://lucide.dev/)
+
+## 📸 Screenshots
+
+<!-- Add your deployed site screenshots here -->
+![Hero Section](screenshots/hero.png)
+![Projects Section](screenshots/projects.png)
+![Responsive Layout](screenshots/mobile-view.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Deepu-Mahi/Portfolio.git
+
+# Navigate to the folder
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
