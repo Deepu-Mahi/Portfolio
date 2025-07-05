@@ -18,7 +18,7 @@ const projects = [
     description:'Built a responsive portfolio site with Vite, React, and Tailwind for an SAP HCM trainer. Features SEO meta tags, structured data, and a professional design.', 
     image: '/Projects/MadhuPayroll.png', // Replace with actual image path
     gradient: 'from-indigo-500 via-sky-500 to-cyan-500',
-    liveDemo: 'https:/madhupayroll.com/', // Update with actual URL
+    liveDemo: 'https://www.madhupayroll.com/', // Update with actual URL
     details: '/Madhupayroll', // Update with your React route
   },
 ];
