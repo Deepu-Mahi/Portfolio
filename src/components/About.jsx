@@ -15,7 +15,7 @@ const About = ({ setActiveSection }) => {
   const stats = [
     {
       icon: Code,
-      number: 3,
+      number: 2,
       key: 'projects',
       label: 'TOTAL PROJECTS',
       description: 'Innovative web & AI-based solutions built',
@@ -105,15 +105,18 @@ const About = ({ setActiveSection }) => {
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 justify-center">
-          <motion.button
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.4, delay: 0.5 }}
-            className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
-          >
-            <Download className="w-4 h-4 group-hover:animate-bounce" />
-            <span>Download Resume</span>
-          </motion.button>
+          <motion.a
+  initial={{ opacity: 0, y: 20 }}
+  animate={isInView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.4, delay: 0.5 }}
+  href="https://drive.google.com/file/d/1zqua8x6c4AaoVxVHzz7aq2MkVt-ePJvF/view?usp=drive_link"
+  download
+  className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
+>
+  <Download className="w-4 h-4 group-hover:animate-bounce" />
+  <span>Download Resume</span>
+</motion.a>
+
 
           <motion.button
             initial={{ opacity: 0, y: 20 }}

@@ -6,13 +6,14 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import DeepLogic from './components/DeepLogic';
+import Madhupayroll from './components/Madhupayroll';
 
 const AppContent = () => {
   const location = useLocation();
   const [activeSection, setActiveSection] = useState('home');
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-  const hideHeaderPaths = ['/DeepLogic'];
+  const hideHeaderPaths = ['/DeepLogic','/Madhupayroll'];
   const shouldShowHeader = !hideHeaderPaths.includes(location.pathname);
 
   useEffect(() => {
@@ -114,6 +115,7 @@ const AppContent = () => {
           }
         />
         <Route path="/DeepLogic" element={<DeepLogic />} />
+        <Route path="/Madhupayroll" element={<Madhupayroll />} />
       </Routes>
     </div>
   );
