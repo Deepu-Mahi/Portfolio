@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Expand } from 'lucide-react';
 
-const certificates = Array.from({ length: 11 }, (_, i) => ({
+const certificates = Array.from({ length: 12 }, (_, i) => ({
   file: `/certificates/cert${i + 1}.png`
 }));
 
